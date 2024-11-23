@@ -1,5 +1,6 @@
 import React from 'react'
 import BurgerImg from '../../../assets/burger/burger4.png'
+import {Link} from 'react-router-dom'
 
 
 function Offer() {
@@ -25,7 +26,7 @@ function Offer() {
 
                             <div className='text-left sm:text-center lg:text-left '>
 
-                                <button className="bg-gradient-to-r from-primary to-secondary  text-gray-300 font-bold py-1 px-4 rounded-xl hover:scale-105 duration-300">Order Now</button>
+                                <Link to="/menu" className="bg-gradient-to-r from-primary to-secondary  text-gray-300 font-bold py-1 px-4 rounded-xl hover:scale-105 duration-300">Order Now</Link>
 
                                 <div className="text-gray-500 text-sm tracking-wide leading-5">
                                     <p className='mt-1'>Offer valid for only friday</p>
