@@ -3,6 +3,7 @@ import BurgerImg1 from '../../../assets/burger/burger1.png'
 import BurgerImg2 from '../../../assets/burger/burger2.png'
 import BurgerImg3 from '../../../assets/burger/burger3.png'
 import Victore from '../../../assets/vector.png'
+import {Link} from 'react-router-dom'
 
 
 
@@ -62,11 +63,11 @@ function Hero() {
                 optio
               </p>
               <div >
-                <button
+                <Link to="/menu"
                   className='bg-gradient-to-r from-primary to-white hover:scale-105 duration-200 text-black font-bold py-2 px-4 rounded-full border-2 border-white'
                 >
                   Order Now
-                </button>
+                </Link>
               </div>
             </div>
             {/* image section  */}
